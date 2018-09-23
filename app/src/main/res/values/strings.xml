@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Profit Manager</string>
+    <string name="title_coin_cap">Market price</string>
+    <string name="title_profits">Profits</string>
+    <string name="title_coin_news">Coin news</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment1">Hello blank fragment 1</string>
+    <string name="fragment2">Hello blank fragment 2</string>
+    <string name="fragment3">Hello blank fragment 3</string>
+
+    <string name="no_connection">Нет доступа к сети, подождите или обновите страницу</string>
+    <string name="Price">Price</string>
+    <string name="Volume_24h">24h vol.</string>
+    <string name="Volume_7d">7d vol.</string>
+    <string name="Coin">Coin</string>
+    <string name="BTC">BTC</string>
+    <string name="Refresh">Refresh</string>
+    </resources>

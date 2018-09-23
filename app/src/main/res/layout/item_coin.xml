@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_coin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin"
+    android:background="@color/Dark">
+
+    <TextView
+        android:id="@+id/tvSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        tools:text="BTC" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/margin"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        tools:text="Bitcoin" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        tools:text="8000$" />
+
+    <TextView
+        android:id="@+id/tvPriceChange_24h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text=" +10%" />
+
+    <TextView
+        android:id="@+id/tvPriceChange_7d"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text=" +100%" />
+
+</LinearLayout>

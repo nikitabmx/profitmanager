@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <color name="blue_swipe">#ff00ddff</color>
+    <color name="green_swipe">#ff99cc00</color>
+    <color name="red_swipe">#ffff4444</color>
+    <color name="orange_swipe">#ffffbb33</color>
+
+</resources>
