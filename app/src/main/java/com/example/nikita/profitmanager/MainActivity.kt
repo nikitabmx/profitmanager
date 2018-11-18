@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentTransaction
 import android.view.Menu
-import android.widget.Toast
+
 
 class MainActivity : AppCompatActivity() {
 
